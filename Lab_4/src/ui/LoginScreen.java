@@ -67,6 +67,7 @@ public class LoginScreen extends javax.swing.JPanel {
         lblRole.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lblRole.setText("Choose Role:");
 
+        btnLogin.setBackground(new java.awt.Color(250, 228, 228));
         btnLogin.setText("Login");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

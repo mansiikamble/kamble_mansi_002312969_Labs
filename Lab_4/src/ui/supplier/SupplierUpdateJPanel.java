@@ -82,6 +82,7 @@ public class SupplierUpdateJPanel extends javax.swing.JPanel {
 
         lblName.setText("Name:");
 
+        btnRemove.setBackground(new java.awt.Color(250, 228, 228));
         btnRemove.setText("Remove");
         btnRemove.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,6 +94,7 @@ public class SupplierUpdateJPanel extends javax.swing.JPanel {
 
         lblTitle.setText("Update Supplier Information:");
 
+        btnUpdateSupplier.setBackground(new java.awt.Color(250, 228, 228));
         btnUpdateSupplier.setText("Update");
         btnUpdateSupplier.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,6 +123,7 @@ public class SupplierUpdateJPanel extends javax.swing.JPanel {
         imgLogo.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         imgLogo.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
+        btnAttach.setBackground(new java.awt.Color(250, 228, 228));
         btnAttach.setText("Attach");
         btnAttach.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

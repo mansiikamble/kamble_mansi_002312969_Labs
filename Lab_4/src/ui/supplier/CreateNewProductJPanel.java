@@ -86,6 +86,7 @@ public class CreateNewProductJPanel extends javax.swing.JPanel {
 
         txtPrice.setBackground(new java.awt.Color(255, 255, 204));
 
+        btnAdd.setBackground(new java.awt.Color(250, 228, 228));
         btnAdd.setText("Add Product");
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,6 +106,7 @@ public class CreateNewProductJPanel extends javax.swing.JPanel {
 
         txtName.setBackground(new java.awt.Color(255, 255, 204));
 
+        btnAttach.setBackground(new java.awt.Color(250, 228, 228));
         btnAttach.setText("Attach");
         btnAttach.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,7 +150,7 @@ public class CreateNewProductJPanel extends javax.swing.JPanel {
                                     .addComponent(btnAdd)
                                     .addComponent(txtPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(imgLogo, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                .addContainerGap(442, Short.MAX_VALUE))
+                .addContainerGap(430, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

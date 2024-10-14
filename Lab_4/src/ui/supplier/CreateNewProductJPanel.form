@@ -64,7 +64,7 @@
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="442" max="32767" attributes="0"/>
+              <EmptySpace pref="430" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -144,6 +144,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnAdd">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e4" green="e4" red="fa" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Add Product"/>
       </Properties>
       <Events>
@@ -175,6 +178,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnAttach">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e4" green="e4" red="fa" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Attach"/>
       </Properties>
       <Events>

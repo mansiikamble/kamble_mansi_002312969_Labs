@@ -37,7 +37,7 @@
         <Container class="javax.swing.JPanel" name="menuBar">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="94" green="94" red="e8" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
@@ -77,6 +77,9 @@
           <SubComponents>
             <Component class="javax.swing.JButton" name="btnManageSuppliers">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="e4" green="e4" red="fa" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Manage Suppliers"/>
               </Properties>
               <Events>
@@ -85,6 +88,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnLogOut">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="e4" green="e4" red="fa" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Log Out"/>
               </Properties>
               <Events>

@@ -126,6 +126,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnUpdate">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e4" green="e4" red="fa" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Update Product"/>
       </Properties>
       <Events>
@@ -155,6 +158,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnSave">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e4" green="e4" red="fa" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Save"/>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
@@ -201,6 +207,9 @@
     </Container>
     <Component class="javax.swing.JButton" name="btnAddFeature">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e4" green="e4" red="fa" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Add Feature"/>
       </Properties>
       <Events>
@@ -209,6 +218,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnRemoveFeature">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e4" green="e4" red="fa" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Remove Feature"/>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>

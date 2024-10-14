@@ -51,6 +51,7 @@ public class SearchForProductJPanel extends javax.swing.JPanel {
 
         idField.setBackground(new java.awt.Color(255, 255, 204));
 
+        searchButton.setBackground(new java.awt.Color(250, 228, 228));
         searchButton.setText("Search Now >>");
         searchButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -56,7 +56,7 @@ public class SupplierWorkAreaJPanel extends javax.swing.JPanel {
         splitPane.setDividerLocation(50);
         splitPane.setOrientation(javax.swing.JSplitPane.VERTICAL_SPLIT);
 
-        menuBar.setBackground(new java.awt.Color(255, 255, 255));
+        menuBar.setBackground(new java.awt.Color(232, 148, 148));
 
         btnLogOut.setBackground(new java.awt.Color(0, 153, 153));
         btnLogOut.setText("Log Out");
@@ -68,6 +68,7 @@ public class SupplierWorkAreaJPanel extends javax.swing.JPanel {
 
         lblWelcome.setText("<WelcomeMsg>");
 
+        btnManageProductCatalog.setBackground(new java.awt.Color(250, 228, 228));
         btnManageProductCatalog.setText("Product Catalog");
         btnManageProductCatalog.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,6 +76,7 @@ public class SupplierWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnSupplierProfile.setBackground(new java.awt.Color(250, 228, 228));
         btnSupplierProfile.setText("Update Profile");
         btnSupplierProfile.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

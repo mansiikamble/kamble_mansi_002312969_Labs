@@ -110,6 +110,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnRemove">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e4" green="e4" red="fa" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Remove"/>
       </Properties>
       <Events>
@@ -130,6 +133,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnUpdateSupplier">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e4" green="e4" red="fa" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Update"/>
       </Properties>
       <Events>
@@ -188,6 +194,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnAttach">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e4" green="e4" red="fa" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Attach"/>
       </Properties>
       <Events>
