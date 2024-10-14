@@ -58,6 +58,7 @@ public class LoginScreen extends javax.swing.JPanel {
         lblTitle.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         lblTitle.setText("Welcome to Lab 4");
 
+        cmbRoles.setBackground(new java.awt.Color(255, 255, 204));
         cmbRoles.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmbRolesActionPerformed(evt);
@@ -75,6 +76,7 @@ public class LoginScreen extends javax.swing.JPanel {
             }
         });
 
+        cmbSuppliers.setBackground(new java.awt.Color(255, 255, 204));
         cmbSuppliers.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmbSuppliersActionPerformed(evt);

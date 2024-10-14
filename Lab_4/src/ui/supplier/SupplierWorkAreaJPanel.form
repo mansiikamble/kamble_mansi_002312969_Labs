@@ -138,12 +138,18 @@
             </Component>
             <Component class="javax.swing.JButton" name="btnManageStaff">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="e4" green="e4" red="fa" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Manage Staff"/>
                 <Property name="enabled" type="boolean" value="false"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="Performance">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="e4" green="e4" red="fa" type="rgb"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Performance"/>
                 <Property name="enabled" type="boolean" value="false"/>
               </Properties>

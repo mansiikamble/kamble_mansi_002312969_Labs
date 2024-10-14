@@ -84,9 +84,11 @@ public class SupplierWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnManageStaff.setBackground(new java.awt.Color(250, 228, 228));
         btnManageStaff.setText("Manage Staff");
         btnManageStaff.setEnabled(false);
 
+        Performance.setBackground(new java.awt.Color(250, 228, 228));
         Performance.setText("Performance");
         Performance.setEnabled(false);
         Performance.addActionListener(new java.awt.event.ActionListener() {

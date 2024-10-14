@@ -74,10 +74,12 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
         lblName.setText("Product Name:");
 
         txtName.setEditable(false);
+        txtName.setBackground(new java.awt.Color(255, 255, 204));
 
         lblPrice.setText("Price:");
 
         txtPrice.setEditable(false);
+        txtPrice.setBackground(new java.awt.Color(255, 255, 204));
 
         btnUpdate.setBackground(new java.awt.Color(250, 228, 228));
         btnUpdate.setText("Update Product");
@@ -96,6 +98,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
         });
 
         txtId.setEditable(false);
+        txtId.setBackground(new java.awt.Color(255, 255, 204));
 
         lblId.setText("ID:");
 
