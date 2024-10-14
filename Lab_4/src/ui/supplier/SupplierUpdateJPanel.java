@@ -32,7 +32,7 @@ public class SupplierUpdateJPanel extends javax.swing.JPanel {
      */
     
     private JPanel workArea;
-    private SupplierDirectory supplierDirectory;
+    private Supplier supplier;
     
     private final JFileChooser fileChooser = new JFileChooser();
     ImageIcon logoImage;
@@ -41,7 +41,7 @@ public class SupplierUpdateJPanel extends javax.swing.JPanel {
         
         initComponents();
         this.workArea = workArea;
-        this.supplierDirectory = supplierDirectory;
+        this.supplier = supplier;
         
         FileFilter jpegFilter = new FileNameExtensionFilter("JPEG file", "jpg", "jpeg");
         FileFilter pngFilter = new FileNameExtensionFilter("PNG file", "png", "png");
@@ -49,6 +49,11 @@ public class SupplierUpdateJPanel extends javax.swing.JPanel {
         fileChooser.addChoosableFileFilter(jpegFilter);
         fileChooser.addChoosableFileFilter(pngFilter);
         fileChooser.setFileFilter(pngFilter);
+        
+        txtName.setText(supplier.getSupplyName());
+        txtDescription.setText(supplier.getDescription());
+        imgLogo.setIcon(supplier.getLogoImage());
+        
     }
 
     /**
@@ -68,7 +73,7 @@ public class SupplierUpdateJPanel extends javax.swing.JPanel {
         backButton = new javax.swing.JButton();
         lblDescription = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        txtDescription = new javax.swing.JTextArea();
         lblLogo = new javax.swing.JLabel();
         imgLogo = new javax.swing.JLabel();
         btnAttach = new javax.swing.JButton();
@@ -105,10 +110,10 @@ public class SupplierUpdateJPanel extends javax.swing.JPanel {
 
         lblDescription.setText("Description:");
 
-        jTextArea1.setBackground(new java.awt.Color(255, 255, 204));
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane1.setViewportView(jTextArea1);
+        txtDescription.setBackground(new java.awt.Color(255, 255, 204));
+        txtDescription.setColumns(20);
+        txtDescription.setRows(5);
+        jScrollPane1.setViewportView(txtDescription);
 
         lblLogo.setText("Logo:");
 
@@ -197,11 +202,11 @@ public class SupplierUpdateJPanel extends javax.swing.JPanel {
 
     private void btnUpdateSupplierActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateSupplierActionPerformed
         // TODO add your handling code here:
-        Supplier supplier = supplierDirectory.addSupplier();
         supplier.setSupplyName(txtName.getText());
+        supplier.setDescription(txtDescription.getText());
         supplier.setLogoImage(logoImage);
 
-        JOptionPane.showMessageDialog(this, "Supplier successfully added", "Warning", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(this, "Supplier successfully updated", "Information", JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_btnUpdateSupplierActionPerformed
 
         private void backAction() {
@@ -251,11 +256,11 @@ public class SupplierUpdateJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnUpdateSupplier;
     private javax.swing.JLabel imgLogo;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JLabel lblDescription;
     private javax.swing.JLabel lblLogo;
     private javax.swing.JLabel lblName;
     private javax.swing.JLabel lblTitle;
+    private javax.swing.JTextArea txtDescription;
     private javax.swing.JTextField txtName;
     // End of variables declaration//GEN-END:variables
 }
