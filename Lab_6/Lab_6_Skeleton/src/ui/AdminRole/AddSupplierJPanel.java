@@ -51,6 +51,8 @@ public class AddSupplierJPanel extends javax.swing.JPanel {
 
         lblName.setText("Name:");
 
+        txtName.setBackground(new java.awt.Color(255, 255, 204));
+
         lblPhone.setText("Phone:");
         lblPhone.setEnabled(false);
 
@@ -61,6 +63,7 @@ public class AddSupplierJPanel extends javax.swing.JPanel {
 
         txtEmail.setEnabled(false);
 
+        btnAdd.setBackground(new java.awt.Color(108, 108, 217));
         btnAdd.setText("Add");
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -68,6 +71,7 @@ public class AddSupplierJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnBack.setBackground(new java.awt.Color(108, 108, 217));
         btnBack.setText("<< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
