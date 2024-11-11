@@ -46,6 +46,8 @@ public class SearchForProductJPanel extends javax.swing.JPanel {
 
         lblProductId.setText("Product Id:");
 
+        txtId.setBackground(new java.awt.Color(255, 255, 204));
+
         btnSearch.setBackground(new java.awt.Color(108, 108, 217));
         btnSearch.setText("Search");
         btnSearch.addActionListener(new java.awt.event.ActionListener() {

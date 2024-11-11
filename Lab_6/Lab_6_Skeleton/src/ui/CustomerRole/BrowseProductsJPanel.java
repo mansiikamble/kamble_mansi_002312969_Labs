@@ -107,6 +107,8 @@ public class BrowseProductsJPanel extends javax.swing.JPanel {
             }
         });
 
+        txtSearch.setBackground(new java.awt.Color(255, 255, 204));
+
         btnSearchProduct.setBackground(new java.awt.Color(108, 108, 217));
         btnSearchProduct.setText("Search Product");
         btnSearchProduct.addActionListener(new java.awt.event.ActionListener() {
