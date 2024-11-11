@@ -33,6 +33,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(204, 204, 255));
         setPreferredSize(new java.awt.Dimension(650, 600));
 
+        btnManageSuppliers.setBackground(new java.awt.Color(108, 108, 217));
         btnManageSuppliers.setText("Manage Suppliers >>");
         btnManageSuppliers.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

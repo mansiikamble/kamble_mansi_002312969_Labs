@@ -73,6 +73,7 @@ public class ManageSuppliersJPanel extends javax.swing.JPanel {
             supplierTable.getColumnModel().getColumn(1).setMaxWidth(200);
         }
 
+        btnBack.setBackground(new java.awt.Color(108, 108, 217));
         btnBack.setText("<< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,6 +81,7 @@ public class ManageSuppliersJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnRemove.setBackground(new java.awt.Color(108, 108, 217));
         btnRemove.setText("Delete");
         btnRemove.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,6 +89,7 @@ public class ManageSuppliersJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnView.setBackground(new java.awt.Color(108, 108, 217));
         btnView.setText("View Products");
         btnView.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,6 +97,7 @@ public class ManageSuppliersJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnAddSupplier.setBackground(new java.awt.Color(108, 108, 217));
         btnAddSupplier.setText("New..");
         btnAddSupplier.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

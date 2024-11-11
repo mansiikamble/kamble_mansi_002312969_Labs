@@ -61,6 +61,7 @@ public class ViewOrderItemDetailJPanel extends javax.swing.JPanel {
         lblTitle.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
         lblTitle.setText("Order Item Details");
 
+        btnBack.setBackground(new java.awt.Color(108, 108, 217));
         btnBack.setText("<< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

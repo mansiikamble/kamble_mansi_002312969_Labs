@@ -36,6 +36,7 @@ public class SupplierWorkAreaJPanel extends javax.swing.JPanel {
         lblTitle.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         lblTitle.setIconTextGap(100);
 
+        btnManageProductCatalog.setBackground(new java.awt.Color(108, 108, 217));
         btnManageProductCatalog.setText("Manage Product Catalog >>");
         btnManageProductCatalog.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

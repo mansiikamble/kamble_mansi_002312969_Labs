@@ -52,6 +52,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
 
         txtPrice.setEditable(false);
 
+        btnUpdate.setBackground(new java.awt.Color(108, 108, 217));
         btnUpdate.setText("Update Product");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -59,6 +60,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnBack.setBackground(new java.awt.Color(108, 108, 217));
         btnBack.setText("<< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

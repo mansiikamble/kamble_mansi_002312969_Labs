@@ -90,6 +90,7 @@ public class BrowseProductsJPanel extends javax.swing.JPanel {
         lblTitle.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         lblTitle.setIconTextGap(20);
 
+        btnBack.setBackground(new java.awt.Color(108, 108, 217));
         btnBack.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnBack.setText("<< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -106,6 +107,7 @@ public class BrowseProductsJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnSearchProduct.setBackground(new java.awt.Color(108, 108, 217));
         btnSearchProduct.setText("Search Product");
         btnSearchProduct.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -143,6 +145,7 @@ public class BrowseProductsJPanel extends javax.swing.JPanel {
 
         spnQuantity.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
 
+        btnAddToCart.setBackground(new java.awt.Color(108, 108, 217));
         btnAddToCart.setText("Add to Cart");
         btnAddToCart.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -150,6 +153,7 @@ public class BrowseProductsJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnProductDetails.setBackground(new java.awt.Color(108, 108, 217));
         btnProductDetails.setText("View Product Details");
         btnProductDetails.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -180,6 +184,7 @@ public class BrowseProductsJPanel extends javax.swing.JPanel {
         });
         jScrollPane2.setViewportView(tblCart);
 
+        btnModifyQuantity.setBackground(new java.awt.Color(108, 108, 217));
         btnModifyQuantity.setText("Modify Quantity");
         btnModifyQuantity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -187,6 +192,7 @@ public class BrowseProductsJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnViewOrderItem.setBackground(new java.awt.Color(108, 108, 217));
         btnViewOrderItem.setText("View Item");
         btnViewOrderItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -194,6 +200,7 @@ public class BrowseProductsJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnRemoveOrderItem.setBackground(new java.awt.Color(108, 108, 217));
         btnRemoveOrderItem.setText("Remove");
         btnRemoveOrderItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -201,6 +208,7 @@ public class BrowseProductsJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnCheckOut.setBackground(new java.awt.Color(108, 108, 217));
         btnCheckOut.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
         btnCheckOut.setText("Check out");
         btnCheckOut.addActionListener(new java.awt.event.ActionListener() {

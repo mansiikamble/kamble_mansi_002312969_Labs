@@ -74,6 +74,7 @@ public class ViewSupplierJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(productCatalog);
 
+        btnBack.setBackground(new java.awt.Color(108, 108, 217));
         btnBack.setText("<< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

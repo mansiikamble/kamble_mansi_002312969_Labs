@@ -51,6 +51,7 @@ public class LoginSupplierJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnFind.setBackground(new java.awt.Color(108, 108, 217));
         btnFind.setText("Login >>");
         btnFind.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

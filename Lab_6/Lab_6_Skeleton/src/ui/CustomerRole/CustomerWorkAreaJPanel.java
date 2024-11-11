@@ -56,6 +56,7 @@ public class CustomerWorkAreaJPanel extends javax.swing.JPanel {
         lblTitle.setText("Welcome Dear Customer!");
         lblTitle.setIconTextGap(20);
 
+        btnBrowseCatalog.setBackground(new java.awt.Color(108, 108, 217));
         btnBrowseCatalog.setText("Browse Product Catalog >>");
         btnBrowseCatalog.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

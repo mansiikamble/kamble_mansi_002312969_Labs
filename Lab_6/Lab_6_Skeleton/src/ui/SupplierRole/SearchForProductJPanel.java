@@ -36,6 +36,7 @@ public class SearchForProductJPanel extends javax.swing.JPanel {
         lblTitle.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         lblTitle.setText("Search for Product");
 
+        btnBack.setBackground(new java.awt.Color(108, 108, 217));
         btnBack.setText("<< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -45,6 +46,7 @@ public class SearchForProductJPanel extends javax.swing.JPanel {
 
         lblProductId.setText("Product Id:");
 
+        btnSearch.setBackground(new java.awt.Color(108, 108, 217));
         btnSearch.setText("Search");
         btnSearch.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

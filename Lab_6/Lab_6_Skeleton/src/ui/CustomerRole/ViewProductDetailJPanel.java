@@ -66,6 +66,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
 
         txtPrice.setEditable(false);
 
+        backButton1.setBackground(new java.awt.Color(108, 108, 217));
         backButton1.setText("<< Back");
         backButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
