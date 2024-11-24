@@ -94,6 +94,11 @@ public class SocialMedia_Main {
     
     private void runAnalysis(){
         // TODO
-        helper.getAverageLikesPerComments();
+       helper.getAverageLikesPerComments();
+       helper.getMaxLikeCommentPost(); //Q2
+       helper.getPostwithMostcomments(); //Q3
+       helper.getPassiveUsers(); //Q4
+       helper.getPassiveCommentUsers(); //Q5 
+       helper.getPassiveAndActiveoverallUsers(); // Q6,7
     }
 }
